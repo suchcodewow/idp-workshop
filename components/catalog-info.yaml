@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-example-service
+  name: shawnpearson-service
   description: |
-    My Example service which has something to do with APIs and database.
+    Shawn Pearson Service.
   links:
     - title: Website
       url: http://harness.io
@@ -11,17 +11,17 @@ metadata:
     github.com/project-slug: harnessworkshop/idp-workshop
     backstage.io/techdocs-ref: dir:../
     lighthouse.com/website-url: https://harness.io
-#    harness.io/services: |
-#      paymentService: https://app.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/cd/orgs/demoorg/projects/paymentservice/services/paymentservice
-#    harness.io/pipelines: |
-#      paymentService: https://app.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/cd/orgs/demoorg/projects/paymentservice/pipelines/harnesscicd/pipeline-studio?storeType=INLINE
-#  labels:
-#    key1: value1
+  #    harness.io/services: |
+  #      paymentService: https://app.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/cd/orgs/demoorg/projects/paymentservice/services/paymentservice
+  #    harness.io/pipelines: |
+  #      paymentService: https://app.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/cd/orgs/demoorg/projects/paymentservice/pipelines/harnesscicd/pipeline-studio?storeType=INLINE
+  #  labels:
+  #    key1: value1
   tags:
-    - yournamehere
+    - shawnpearson
 spec:
   type: service
-  owner: change-value
+  owner: TeamA
   lifecycle: experimental
 #  system: Demo
 #  dependsOn:
